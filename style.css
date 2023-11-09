@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&family=Poppins:ital@1&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+    /*LOGO DA BARRA DA NAVBAR*/
+.logo {
+    height: 92px;
+    margin: auto;
+    cursor: pointer;
+}
+.logo:hover {
+    transform: scale(1.12);
+    
+}
+
+    /*LOGO DA ASSINATURA*/
+.logo2 {
+    height: 92px;
+    margin: auto;
+    cursor: pointer;
+}
+/* NAVBAR, BARRA DE NAVEGACAO*/
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar .navbar-container {
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 0;
+
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container li {
+    padding: 0 15px;
+    color: rgb(12, 12, 117);
+    cursor: pointer;
+}
+#navbar .navbar-container li:hover {
+    transform: scale(1.2);
+    color:  rgb(17, 17, 163);
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/destaques/disney-plus-perfis-desk-1920x832.jpg) center center/cover
+
+}
+
+#showcase .showcase-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    height: 220px;
+    width: auto;
+    left: 225px;
+    border-radius: 10px;
+
+}
+#showcase .showcase-container .assinatura {
+    border-radius: 12px;
+    height: 37px;
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 7, 59);
+    border: none;
+    cursor: pointer;
+
+}
+#showcase .showcase-container .assinatura:hover {
+    transform: scale(1.05);
+}
+
+#showcase2 {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(3, 1, 27));
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+#showcase2 .items2container {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+#showcase2 .items2container ul {
+    list-style: none;
+    padding: 160px 0;
+    width: 820px;
+}
+#showcase2 .items2container h1 {
+    font-size: xxx-large;
+}
+#showcase2 .items2container li {
+    padding: 15px 0;
+    font-size: larger
+}
+/**/
+/* Area de dispositivos compativeis com Disney+ */
+
+#showcase3 {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(3, 1, 27));
+    border: none;
+    padding: 180px 0;
+}
+#showcase3 ul {
+    padding: 15px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+
+}
+#showcase3 h1 {
+    font-size: 40px;
+}
+#showcase3 li {
+    padding: 15px 0;
+    font-size: 20px;
+}
+/**/
+/* Area das imagens do Showcase3 */
+
+#showcaseimagens {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(3, 1, 27));
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+    letter-spacing: 20px;
+
+}
+#showcaseimagens img {
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    width: 440px;
+    margin: 14px 0;
+}
+#showcaseimagens img:hover {
+    transform: scale(1.01);
+}
+/**/
+/* Area de dispositivos compativeis com Disney+ */
+
+#dispositivos {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(3, 1, 27));
+    color: white;
+    padding: 100px;
+}
+#dispositivos h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+#dispositivos h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    letter-spacing: 0.5px;
+}
+#dispositivos .dispositivos-colunas {
+    display: flex;
+    padding: 42px 0;
+    justify-content: center;
+    width: 100%;
+}
+#dispositivos .dispositivos-colunas img {
+    width: 400px;
+}
+#dispositivos .dispositivos-colunas ul{ 
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+#dispositivos .dispositivos-colunas li {
+    letter-spacing: 0.5px;
+    padding: 3px;
+    color: gray;
+    font-weight: bold;
+}
+/**/
+/* Rodape DO SITE! */
+
+
+#rodape {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(3, 1, 27));
+    color: white;
+    width: 100%;
+}
+#rodape img {
+    display: flex;
+    text-align: center; 
+}
+#rodape ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#rodape li {
+    letter-spacing: 0.2px;
+    justify-content: space-between;
+    font-size: 10px;
+    color: rgb(175, 174, 174);
+    cursor: pointer;
+    padding: 14px;
+    border: none;
+}
+#rodape li:hover {
+    color: white;
+
+}
+#rodape .ul2 li {
+    justify-content: space-between;
+    font-size: 10px;
+    color: rgb(175, 174, 174);
+    cursor: default;
+    border: none;
+}
+#ultimorodape li {
+    font-size: 12px;
+    cursor: default;
+    padding-block-end: 100px;
+    margin: 40px 0;
+}
